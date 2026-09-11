@@ -1,0 +1,90 @@
+{
+  "reference": "https://elyse-residence-dev.webflow.io/",
+  "note": "Reference imagery reused at owner request. Confirm commercial usage rights. Fonts: SIL Open Font License. Original site code and proprietary fonts are not bundled.",
+  "files": [
+    {
+      "file": "assets/OFL-Cormorant.txt",
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+      "bytes": 4387,
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "file": "assets/about.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881a350b370d1b613ff09_about-img--d.avif",
+      "bytes": 25466,
+      "sha256": "53fc2e628d497426ad238a917c7b58fa6cae7392c0ddee5355bfb9aebd91955e"
+    },
+    {
+      "file": "assets/cormorant-italic.ttf",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3smX5slCNuHLi8bLeY9MK7whWMhyjYrGFEsdtdc62E6zd58jDOjw.ttf",
+      "bytes": 293036,
+      "sha256": "0b9a8a33cfaa624d30f70f9b6686da769b319b8c37a55af16e29fef690108bbf"
+    },
+    {
+      "file": "assets/cormorant-regular.ttf",
+      "source": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_v86GnM.ttf",
+      "bytes": 290236,
+      "sha256": "6d37a86241a25d63f8fe6018b4c083449886b7165c1acb15edd0f574f690ecf7"
+    },
+    {
+      "file": "assets/duplex.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881b0a57115d8cd3a12c2_livings-img-1--d.avif",
+      "bytes": 89325,
+      "sha256": "78e2be11bd5ea66586b3f11aadd29cc84be4c72b7290006a29d5b6db909b086c"
+    },
+    {
+      "file": "assets/garden.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881b0422731c7d2c5fcac_livings-img-2--d.avif",
+      "bytes": 149507,
+      "sha256": "fa5f724694cde3062ea9476110461ed77ab9718787435478866e0a4cd89bf251"
+    },
+    {
+      "file": "assets/hero-poster.jpg",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec%2F69610a0c261bf5a0d9012dd6_hero%203%20%281%29_poster.0000000.jpg",
+      "bytes": 227089,
+      "sha256": "ef8435f5a1acd2f56d38e819e315c7fb6b26eef35ad75ae882946c2a51f4c53b"
+    },
+    {
+      "file": "assets/hero.mp4",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec%2F69610a0c261bf5a0d9012dd6_hero%203%20%281%29_mp4.mp4",
+      "bytes": 1534771,
+      "sha256": "8b20ec6ddd59c89a94abdf19fb87724f3add8dcffeeb4d96ee8fb9c5b767f45f"
+    },
+    {
+      "file": "assets/house-mobile.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881c82316816e1085777d_cta-img--mob.avif",
+      "bytes": 24524,
+      "sha256": "c04bf2a0275bb847639bbce4184b14d5291b975592c59d7e491cfb7c66337bfd"
+    },
+    {
+      "file": "assets/house.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881d5049ac7d72bb5f18f_cta-img--d.avif",
+      "bytes": 257157,
+      "sha256": "b9de14ea26429896f788297c37dce1460316a4d8278b83e0e7db72b90535f6a7"
+    },
+    {
+      "file": "assets/interior.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881c0f19790d102a7679d_beliefs-img-2--d.avif",
+      "bytes": 35000,
+      "sha256": "fa8f49b88123a65e4c37f2a8d88ec3c2dc1e3544d1d647f6b8463aef78f3ea17"
+    },
+    {
+      "file": "assets/living.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881c0bd19ffb64b94f142_beliefs-img--d.avif",
+      "bytes": 176014,
+      "sha256": "916eb60be8495f19f10a655c3df0ba6fc44acbd1bc712978ecffc4dd4a0a3d6c"
+    },
+    {
+      "file": "assets/penthouse.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881b00e2082f46e0752ce_livings-img-3--d.avif",
+      "bytes": 57864,
+      "sha256": "0da6ed3b82fa2a74f6ae73893ba8f79054e26e9d899a52a8cf3986ae1505566b"
+    },
+    {
+      "file": "assets/retreat.avif",
+      "source": "https://cdn.prod.website-files.com/69372e47ab695bf5546b46ec/693881ec1f8b80b2102e2e7b_amenities-img-2--big.avif",
+      "bytes": 87397,
+      "sha256": "9fcb7cb774cabd064db3196c604a1e89be1dd21c9268bb900cbe254f1cf86d8b"
+    }
+  ]
+}

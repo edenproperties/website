@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111b18" />
+    <title>Eden Properties — A quieter kind of extraordinary</title>
+    <meta
+      name="description"
+      content="Discover Eden Properties. An appreciation for timeless design, natural surroundings, and thoughtfully considered living."
+    />
+    <link rel="canonical" href="https://edenproperties.co.in/" />
+    <meta property="og:title" content="Eden Properties — Inspired living" />
+    <meta
+      property="og:description"
+      content="Timeless design. A deeper connection to nature. A place to call your own."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://edenproperties.co.in/" />
+    <meta
+      property="og:image"
+      content="https://edenproperties.co.in/assets/hero-poster.jpg"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="assets/cormorant-regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="assets/hero-poster.jpg"
+      as="image"
+      fetchpriority="high"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header" id="header">
+      <a class="wordmark" href="#home" aria-label="Eden Properties home"
+        >EDEN<span>PROPERTIES</span></a
+      >
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">Our philosophy</a
+        ><a href="#residences">The living collection</a
+        ><a href="#beliefs">A considered life</a>
+      </nav>
+      <a class="button header-contact" href="#contact"
+        >Get in touch <span aria-hidden="true">↗</span></a
+      >
+    </header>
+    <main id="main">
+      <section class="hero" id="home" aria-label="Welcome to Eden Properties">
+        <div class="hero-media">
+          <video
+            id="hero-video"
+            muted
+            loop
+            playsinline
+            preload="none"
+            poster="assets/hero-poster.jpg"
+            aria-hidden="true"
+            tabindex="-1"
+            data-src="assets/hero.mp4"
+          ></video>
+          <div class="hero-shade"></div>
+        </div>
+        <div class="hero-intro">
+          <span class="eyebrow">Thoughtfully considered living</span
+          ><span class="hero-intro-right">A place to belong.</span>
+        </div>
+        <div class="hero-bottom">
+          <h1>
+            <span class="hero-eden">EDEN</span
+            ><span class="hero-properties">PROPERTIES</span
+            ><span class="sr-only">Eden Properties</span>
+          </h1>
+          <div class="hero-copy">
+            <h2>A quieter kind<br />of <em>extraordinary.</em></h2>
+            <p>
+              Timeless design. A deeper connection to nature. Welcome to a world
+              where living well comes naturally.
+            </p>
+            <a class="scroll-link" href="#about"
+              >Explore Eden <span aria-hidden="true">↓</span></a
+            >
+          </div>
+        </div>
+        <button
+          class="motion-toggle"
+          id="motion-toggle"
+          type="button"
+          aria-pressed="false"
+          aria-label="Pause background motion"
+          hidden
+        >
+          <span aria-hidden="true">Ⅱ</span> Pause motion
+        </button>
+      </section>
+
+      <section class="about section-pad" id="about">
+        <div class="section-top">
+          <span class="eyebrow">01 / Our philosophy</span
+          ><span class="eyebrow">The art of feeling at home</span>
+        </div>
+        <div class="about-layout">
+          <h2 class="display reveal">
+            Timeless<br /><em>by design.</em><br />Inspired<br />by
+            <em>nature.</em>
+          </h2>
+          <figure class="about-image reveal">
+            <img
+              src="assets/about.avif"
+              alt="Soft neutral interiors, natural light, and a welcoming sofa"
+              width="700"
+              height="900"
+              loading="lazy"
+            />
+            <figcaption>Room to slow down. Space to be yourself.</figcaption>
+          </figure>
+          <div class="about-copy reveal">
+            <span class="small-symbol" aria-hidden="true">✳</span>
+            <p class="lead">
+              A home should be more than a beautiful space. It should be a
+              beautiful way to live.
+            </p>
+            <p>
+              At Eden Properties, our philosophy brings together thoughtful
+              architecture, everyday comfort, and an enduring connection to the
+              natural world.
+            </p>
+            <p>
+              From quiet corners to open, light-filled rooms, we’re inspired by
+              the details that make a place feel truly your own.
+            </p>
+            <a class="text-link" href="#residences"
+              >Discover our inspiration <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="collection"
+        id="residences"
+        aria-labelledby="collection-title"
+      >
+        <div class="collection-heading section-pad">
+          <span class="eyebrow">02 / The living collection</span>
+          <h2 class="display" id="collection-title">
+            Different spaces.<br />One <em>beautiful feeling.</em>
+          </h2>
+          <p>
+            A glimpse into the ways we imagine living well.<br />Imagery is
+            illustrative; enquire for current projects.
+          </p>
+        </div>
+        <div class="scroll-story" id="scroll-story">
+          <div class="story-stage">
+            <article class="story-slide is-active" data-slide="0">
+              <img
+                src="assets/duplex.avif"
+                alt="Light-filled double-height living room with an open mezzanine"
+                width="1200"
+                height="900"
+                loading="lazy"
+              />
+              <div class="story-overlay"></div>
+              <div class="story-content">
+                <span class="eyebrow">01 — Light & openness</span>
+                <h3>The <em>Duplex</em><br />Collection</h3>
+                <div class="story-description">
+                  <p>
+                    Room to grow. Space to gather. An open, flowing approach to
+                    life across two levels.
+                  </p>
+                  <a class="button" href="#contact"
+                    >Explore the possibilities
+                    <span aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="story-slide" data-slide="1">
+              <img
+                src="assets/penthouse.avif"
+                alt="Sunlit dining space with a sculptural pendant and natural materials"
+                width="1200"
+                height="900"
+                loading="lazy"
+              />
+              <div class="story-overlay"></div>
+              <div class="story-content">
+                <span class="eyebrow">02 — A new perspective</span>
+                <h3>Life,<br /><em>Elevated.</em></h3>
+                <div class="story-description">
+                  <p>
+                    A penthouse state of mind. Considered interiors, natural
+                    textures, and a little more room to breathe.
+                  </p>
+                  <a class="button" href="#contact"
+                    >Explore the possibilities
+                    <span aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="story-slide" data-slide="2">
+              <img
+                src="assets/garden.avif"
+                alt="Private garden and timber terrace opening onto a modern home"
+                width="1200"
+                height="900"
+                loading="lazy"
+              />
+              <div class="story-overlay"></div>
+              <div class="story-content">
+                <span class="eyebrow">03 — Closer to nature</span>
+                <h3>The <em>Garden</em><br />Collection</h3>
+                <div class="story-description">
+                  <p>
+                    A softer rhythm. Green surroundings, quiet terraces, and the
+                    simple pleasure of bringing the outside in.
+                  </p>
+                  <a class="button" href="#contact"
+                    >Explore the possibilities
+                    <span aria-hidden="true">↗</span></a
+                  >
+                </div>
+              </div>
+            </article>
+            <div
+              class="story-controls"
+              aria-label="Living collection navigation"
+            >
+              <button
+                type="button"
+                data-story="0"
+                aria-label="View Duplex Collection"
+                aria-current="true"
+              >
+                <span>01</span><i></i></button
+              ><button
+                type="button"
+                data-story="1"
+                aria-label="View Elevated Living"
+                aria-current="false"
+              >
+                <span>02</span><i></i></button
+              ><button
+                type="button"
+                data-story="2"
+                aria-label="View Garden Collection"
+                aria-current="false"
+              >
+                <span>03</span><i></i>
+              </button>
+            </div>
+            <span class="story-hint eyebrow"
+              >Scroll to discover <span aria-hidden="true">↓</span></span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="beliefs section-pad" id="beliefs">
+        <div class="section-top">
+          <span class="eyebrow">03 / What matters to us</span
+          ><span class="eyebrow">Less noise. More meaning.</span>
+        </div>
+        <div class="beliefs-intro">
+          <h2 class="display reveal">
+            A vision of<br /><em>inspired living.</em>
+          </h2>
+          <p class="lead reveal">
+            Beauty is only the beginning.<br />How a place makes you feel<br />is
+            what stays with you.
+          </p>
+        </div>
+        <div class="beliefs-images">
+          <figure class="reveal">
+            <img
+              src="assets/living.avif"
+              alt="A calm living room with warm wood finishes and expansive windows"
+              width="1200"
+              height="900"
+              loading="lazy"
+            />
+            <figcaption>01 / Comfort without compromise</figcaption>
+          </figure>
+          <figure class="reveal">
+            <img
+              src="assets/interior.avif"
+              alt="Refined sitting area with tactile finishes and soft natural tones"
+              width="1200"
+              height="900"
+              loading="lazy"
+            />
+            <figcaption>02 / Beauty in the everyday</figcaption>
+          </figure>
+        </div>
+        <div class="values">
+          <div>
+            <span class="eyebrow">( 01 )</span>
+            <h3>Well-being,<br /><em>by intention.</em></h3>
+            <p>
+              Spaces that invite you to pause, recharge, and find your own
+              rhythm.
+            </p>
+          </div>
+          <div>
+            <span class="eyebrow">( 02 )</span>
+            <h3>A natural<br /><em>connection.</em></h3>
+            <p>
+              An appreciation for light, fresh air, and the quiet beauty of the
+              outdoors.
+            </p>
+          </div>
+          <div>
+            <span class="eyebrow">( 03 )</span>
+            <h3>Lasting<br /><em>simplicity.</em></h3>
+            <p>Thoughtful choices and timeless details over passing trends.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="nature" aria-label="Living in harmony with nature">
+        <img
+          src="assets/retreat.avif"
+          alt="Warmly lit contemporary retreat nestled among misty mountains"
+          width="1400"
+          height="1000"
+          loading="lazy"
+        />
+        <div class="nature-shade"></div>
+        <div class="nature-copy reveal">
+          <span class="eyebrow">The Eden perspective</span>
+          <h2>Not just a place.<br />A <em>way of living.</em></h2>
+        </div>
+      </section>
+
+      <section class="faq section-pad" id="questions">
+        <div class="faq-title">
+          <span class="eyebrow">04 / A little more clarity</span>
+          <h2 class="display">Your questions,<br /><em>answered.</em></h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>
+              <span class="faq-number">( 01 )</span>What is the Eden Properties
+              philosophy?<span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <p>
+              We’re inspired by timeless design, everyday well-being, and a
+              connection to nature. Our aim is to bring those ideas together in
+              a more considered approach to finding a place to call home.
+            </p>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-number">( 02 )</span>How can I learn about
+              current projects?<span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <p>
+              Get in touch with Eden Properties to discuss current projects,
+              locations, specifications, and availability. The spaces shown here
+              are design inspiration, not a confirmed inventory of properties
+              for sale.
+            </p>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-number">( 03 )</span>Can I arrange a conversation
+              or viewing?<span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <p>
+              Yes. Use the email link below to tell us what you’re looking for.
+              We can discuss your requirements and the next steps, including
+              viewing arrangements where available.
+            </p>
+          </details>
+          <details>
+            <summary>
+              <span class="faq-number">( 04 )</span>Are the images of available
+              properties?<span class="faq-icon" aria-hidden="true"></span>
+            </summary>
+            <p>
+              The photography illustrates the design direction and lifestyle
+              that inspire Eden Properties. Please contact us for verified
+              project photography, property details, pricing, and applicable
+              approvals before making any decisions.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <picture
+          ><source
+            media="(max-width: 600px)"
+            srcset="assets/house-mobile.avif" />
+          <img
+            src="assets/house.avif"
+            alt="Contemporary glass-fronted home glowing warmly at dusk"
+            width="1600"
+            height="1000"
+            loading="lazy"
+        /></picture>
+        <div class="contact-shade"></div>
+        <div class="contact-content">
+          <span class="eyebrow"
+            >Your next chapter starts with a conversation</span
+          >
+          <h2>Find your<br /><em>own Eden.</em></h2>
+          <p>
+            Tell us what home means to you.<br />Let’s explore the possibilities
+            together.
+          </p>
+          <a
+            class="button button-large"
+            href="mailto:edenproperties.tn@gmail.com?subject=Enquiry%20about%20Eden%20Properties"
+            >Start a conversation <span aria-hidden="true">↗</span></a
+          ><span class="contact-note"
+            >Opens your email app · No forms. No tracking.</span
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer section-pad">
+      <div class="footer-top">
+        <a class="wordmark" href="#home" aria-label="Eden Properties home"
+          >EDEN<span>PROPERTIES</span></a
+        >
+        <div>
+          <span class="eyebrow">Get in touch</span
+          ><a class="footer-email" href="mailto:edenproperties.tn@gmail.com"
+            >edenproperties.tn@gmail.com <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <a class="text-link" href="#home"
+          >Back to top <span aria-hidden="true">↑</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Eden Properties</span
+        ><span
+          >Imagery for illustration. Contact us for verified project
+          details.</span
+        ><a href="https://edenproperties.co.in/">edenproperties.co.in</a>
+      </div>
+    </footer>
+    <script src="app.js" defer></script>
+  </body>
+</html>

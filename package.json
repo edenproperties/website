@@ -1,0 +1,14 @@
+{
+  "name": "eden-properties",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free static real estate landing page",
+  "scripts": {
+    "start": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "test": "playwright test",
+    "test:static": "python3 -m unittest discover -s tests -v"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}
